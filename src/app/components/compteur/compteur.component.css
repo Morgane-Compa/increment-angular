@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: rgb(183, 0, 255);
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 200px 40px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.opacity {
+    opacity: 0.5;
+}

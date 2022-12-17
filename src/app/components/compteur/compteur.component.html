@@ -1,0 +1,11 @@
+<!-- step 1 : créer 2 boutons -->
+<!-- step 2 : créer une fontion -->
+<!-- step 3 : assigner la valeur de la fonction a un p -->
+
+<h1>Des Boutons !!!!!!!!!!!</h1>
+
+<div>
+    <button (click)="increment()"> + </button>
+    <p>{{number}}</p>
+    <button (click)="decrement()" [class.opacity]="number <= 0 " [disabled]= "number <= 0"> - </button>
+</div>
